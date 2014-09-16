@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Savage - a minmal SVG library for JavaScript</title>
+  <script type="text/javascript" src="savage.js"></script>
+  <script type="text/javascript">
+    window.onload = function() {
+      var paper = new Savage('#svg', 400, 711);
+      var circle = paper.draw('circle', {
+        cx: 100, cy: 200, r: 50, fill: '#6baf7d'
+      });
+      var circle = paper.circle({
+        cx: 50, cy: 200, r: 44, fill: '#abffdd'
+      }).attr({
+        'stroke-width': '6px'
+      }).attr({
+        stroke: '#6baf7d'
+      });
+      //var text = paper.text(
+    };
+  </script>
+</head>
+<body>
+  <div id="svg"></div>
+</body>
+</html>
