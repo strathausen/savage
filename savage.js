@@ -1,9 +1,9 @@
 /**
  * Savage JS
  *
- * svg.dracula.io
- *
  * Smallest Available Vector Aggregator Graphing Enabler
+ * 
+ * http://strathausen.github.io/savage/
  */
 /*
  * TODO support sets / groups
