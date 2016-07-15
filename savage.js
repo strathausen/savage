@@ -45,6 +45,7 @@ var S = function(E, h, w) {
 var el = function(t, a) {
   var e = D.createElementNS(xm, t);
   attr(e, a);
+  a.hasOwnProperty('content') && (e.textContent = a.content);
   return e;
 };
 
