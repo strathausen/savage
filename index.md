@@ -1,6 +1,6 @@
 # savage.js
 
-Poor man's SVG library.
+Tiny SVG library.
 
 Less than 1k gzipped and minified.
 
