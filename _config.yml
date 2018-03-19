@@ -1,0 +1,8 @@
+title: Savage
+description: tiny svg library
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-tactile
+
+gems:
+  - jekyll-mentions
